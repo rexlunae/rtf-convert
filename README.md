@@ -3,6 +3,10 @@ NOTICE
 
 This software is not my original work. It is software that I needed, and could only find hiding in a very old archive. I'm putting it on GitHub in case it turns out to be useful to someone other than me.
 
+Retrieved 2021-11-29 from here, at which time it states "Saturday February 11, 2006 3:48 PM":
+http://support.moonpoint.com/downloads/computer_languages/c++/rtf-converter.php
+
+
 rtf-convert
 ===
 
