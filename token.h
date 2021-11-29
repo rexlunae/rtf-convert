@@ -36,7 +36,7 @@ public:
 	string text;	// store the token text in case it is needed
 };
 
-typedef enum GroupType { startGroup, endGroup };
+enum GroupType { startGroup, endGroup };
 
 class GroupToken : public Token  
 {

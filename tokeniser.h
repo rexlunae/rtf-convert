@@ -38,8 +38,8 @@ public:
 protected:
 
 
-	static int hash (char *s);
-	static void lookup (char *s, ControlToken *token);
+	static int hash (const char *s);
+	static void lookup (const char *s, ControlToken *token);
 	static void lookupInit ();
 
 	int chartoi( char ch );

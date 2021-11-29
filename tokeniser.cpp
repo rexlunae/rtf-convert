@@ -293,7 +293,7 @@ Tokeniser::lookupInit ()
 	if (!hashTableReady )
 	{
 		for (rp = rtfKey; rp->rtfKStr != (char *) NULL; rp++)
-			rp->rtfKHash = hash (rp->rtfKStr);
+			rp->rtfKHash = hash(rp->rtfKStr);
 		hashTableReady = true;
 	}
 }
@@ -305,7 +305,7 @@ Tokeniser::lookupInit ()
  */
 
 void
-Tokeniser::lookup (char *s, ControlToken *token)
+Tokeniser::lookup (const char *s, ControlToken *token)
 {
 	RTFKey	*rp;
 	int	hashValue;
@@ -333,7 +333,7 @@ Tokeniser::lookup (char *s, ControlToken *token)
  */
 
 int
-Tokeniser::hash (char *s)
+Tokeniser::hash (const char *s)
 {
 	char	c;
 	int	val = 0;

@@ -24,7 +24,7 @@ struct RTFKey
 {
 	int	rtfKMajor;	/* major number */
 	int	rtfKMinor;	/* minor number */
-	char	*rtfKStr;	/* symbol name */
+	const char	*rtfKStr;	/* symbol name */
 	int	rtfKHash;	/* symbol name hash value */
 };
 
