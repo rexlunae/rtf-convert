@@ -50,7 +50,7 @@ private:
 	void pushTable();
 	void pushTableRow();
 	void pushTableCell();
-	char * *HTML_CODES;
+	const char **HTML_CODES;
 	bool handleEndGroup(Token * token);
 	bool handleStartGroup(Token * token);
 	bool handleControl (ControlToken *token);
