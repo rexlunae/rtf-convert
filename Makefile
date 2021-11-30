@@ -100,6 +100,8 @@ token.o : token.cpp
 tokeniser.o : tokeniser.cpp
 	$(CXX) -c -o $@ $< $(CXXFLAGS)
 
+clean:
+	rm -f *.o rtf-converter
 
 # DO NOT DELETE
 
